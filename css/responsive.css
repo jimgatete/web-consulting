@@ -1,167 +1,153 @@
-@media (max-width: 1120px) {
-    .agency_section .agency_container .box {
-        width: 70%;
-    }
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    
 }
 
-@media (max-width: 992px) {
-    .navbar-brand {
-        margin-bottom: 0;
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+      margin: 0 0px;
     }
+   
 
-    .custom_nav-container {
-        flex-direction: row;
-    }
+    .testimonial_Carousel .test_box span {
 
-    #navbarSupportedContent {
-        margin-top: 25px;
-    }
-
-    .custom_nav-container .nav_search-btn {
-        background-position: center;
-    }
-
-    .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
-        margin: 7px 15px;
-    }
-
-    .slider_section .detail-box {
-        width: 100%;
-        margin: 45px 0;
-    }
-
-    .slider_section .carousel-indicators li {
-        font-size: 3.5rem;
-    }
-
-    .agency_section .agency_container .box {
-        width: 85%;
-        padding: 90px 55px;
-    }
+    font-size: 21px;}
+    ul.location_icon li {padding-right: 12px; font-size: 15px;}
+    ul.link_icon li a {font-size: 16px;}
 }
 
-@media (max-width: 768px) {
-    .hero_area {
-        height: auto;
-    }
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+      padding: 25px 10px;
 
-    .slider_section {
-        padding: 0 25px;
+margin: 0 0px;
     }
-
-    .slider_section .slider_container {
-        padding: 20px;
+    .sign_btn {max-width: 128px;
+font-size: 14px !important;}
+    .text-bg h1 {
+font-size: 39px;
+line-height: 49px;
     }
-
-    .slider_section .carousel-indicators {
-        right: -40px;
+    .about_box {max-width: inherit; margin-bottom: 30px;}
+    .titlepage h2 {
+      font-size: 27px;
     }
+   
+    .ho_socal {width: 190px;
+height: 187px;}
+    .testimonial_Carousel .test_box span {font-size: 15px;
+margin-left: 7px;}
+    ul.location_icon li {font-size: 14px;
+padding-right: 10px;}
+}
 
-    .slider_section .detail-box {
-        padding-left: 0;
-        text-align: center;
-    }
+@media (min-width: 576px) and (max-width: 767px) {
 
-    .slider_section .carousel_btn-box {
-        right: 50%;
-        transform: translateX(50%);
-    }
 
-    .slider_section .detail-box a {
-        margin-bottom: 35px;
-    }
 
-    .portfolio_section .portfolio_container .box-1,
-    .portfolio_section .portfolio_container .box-2 {
-        flex-direction: column;
+    .text-bg {padding-top: 30px; margin-bottom: 30px;}
+    .text-bg h1 {font-size: 52px;
+
+line-height: 66px;}
+    
+   .about_box {margin-bottom: 30px;}
+   .ho_socal {width: 217px;
+height: 214px;}
+
+.d_none1 {display: none;}
+.titlepage h2 {font-size: 28px;}
+ul.conta_icon li a {font-size: 12px;}
+    .navigation.navbar {
+        float: left;
+        display: inherit !important;
         padding: 0;
-    }
-
-    .started_section .heading_container {
-
-        text-align: center;
-        align-items: center;
-    }
-
-    .started_section .btn-box {
-        justify-content: center;
-        margin-top: 25px;
-    }
-
-    .agency_section .agency_container {
-        padding: 75px 45px;
-    }
-
-    .agency_section .agency_container .box {
         width: 100%;
-        padding: 75px 25px;
+        padding-top: 12px;
     }
-
-    .client_section .box {
+    .navigation .navbar-collapse {
+        background: #000;
+        padding: 20px;
+       margin-top: 58px;
+        position: absolute;
         width: 100%;
+        margin-right: 20px;
+        z-index: 999;
     }
-
-    .info_section .row>div {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
+    .navigation.navbar-dark .navbar-nav .nav-link {
+       padding: 10px 10px
+        color: #fff;
     }
-
-    .logo_container.layout_padding {
-
-        padding: 45px 0;
-
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: left;
+        padding: 0;
+        margin-top: 15px;
     }
-}
-
-@media (max-width: 576px) {
-    .slider_section .carousel-indicators {
-        display: none;
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
     }
-
-    .portfolio_section .portfolio_container {
-        margin: 45px 25px 0;
-    }
-
-    .agency_section .agency_container {
-        margin: 45px 0;
-        padding: 45px 15px;
-    }
-
-    .logo_section .logo_container {
-        margin: 55px 25px 0;
-    }
-
-    .info_section {
-        margin: 0 25px 25px;
-    }
-
-    .logo_container.layout_padding {
-
-        padding: 25px 0;
-
-    }
-
-}
-
-@media (max-width: 480px) {
-    .slider_section .detail-box h1 {
-        font-size: 3.5rem;
+    .margin_bottom1 {
+        margin-bottom: 30px !important;
     }
 }
 
-@media (max-width: 420px) {}
+@media (max-width: 575px) {
+   
+    .logo {
+        text-align: center !important;
+        padding-bottom: 6px;
+       text-align: center;
+    }
+    .d_none {display: none;}
+    .text-bg {margin-bottom: 30px; padding-top: 0;}
+    .text-bg h1 {
+font-size: 28px;
+line-height: 38px;
+    }
+    .titlepage h2 {
+        font-size: 27px;
+    }
+    .about_box {margin-bottom: 30px;}
+    .service .read_more {margin: inherit;}
+    .d_none1 {display: none;}
+   .ho_socal {width: 228px;
 
-@media (max-width: 376px) {
-    .slider_section .detail-box h1 {
-        font-size: 3rem;
+
+height: 231px;}
+    .testimonial_Carousel .carousel-indicators {bottom: -4px;}
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .navigation .navbar-collapse {
+        background: #000;
+        padding: 20px;
+       margin-top: 50px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 10px;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        margin-right: 2px;
+        border: inherit;
+    }
+    .testimonial_box {
+        padding: 0px 19px 40px 20px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
     }
 }
 
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1170px;
-    }
-}
